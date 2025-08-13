@@ -1,14 +1,29 @@
-# React + Vite
+Wordle Clone
+A simple browser-based Wordle clone built with React and Vite. Try to guess the 5-letter word in six attempts, just like the popular game!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎮 Features
+Fully playable Wordle clone in the browser.
 
-Currently, two official plugins are available:
+On-screen keyboard highlighting correct, misplaced, and incorrect letters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Animated tile flips after each guess. (to be added)
 
-## Expanding the ESLint configuration
+Responsive design, centered on desktop browsers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Wordle
-Clone of Wordle
+Simple notification system for invalid words.
+
+
+🛠️ Setup Instructions
+Follow these steps to run the game locally:
+
+1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/wordle-clone.git
+cd wordle-clone
+
+3. Install dependencies
+Make sure you have Node.js installed (v16+ recommended). Then run:
+npm install
+
+3. Start the development server
+npm run dev
+Open the URL shown in the terminal (usually http://localhost:5173) to play the game locally.
